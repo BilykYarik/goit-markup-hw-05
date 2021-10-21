@@ -151,10 +151,11 @@ ul {
     color: var(--accent-color);
 }
 
-.logo-header:hover,
+
+/* .logo-header:hover,
 .logo-header:focus {
     color: var(--accent-color);
-}
+} */
 
 .logo-header {
     color: var(--first-logo-color);
@@ -171,10 +172,11 @@ ul {
     letter-spacing: 0.03em;
 }
 
-.logo-footer:hover,
+
+/* .logo-footer:hover,
 .logo-footer:focus {
     color: var(--accent-color);
-}
+} */
 
 .header-link {
     margin-left: 50px;
