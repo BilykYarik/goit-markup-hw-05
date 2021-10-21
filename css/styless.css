@@ -123,6 +123,7 @@ ul {
     letter-spacing: 0.06em;
     border: 0;
     color: var(--primary-title-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:focus,
@@ -177,6 +178,11 @@ ul {
 .logo-footer:focus {
     color: var(--accent-color);
 } */
+
+.link {
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .header-link {
     margin-left: 50px;
@@ -376,6 +382,7 @@ ul {
     color: var(--clients-color);
     justify-content: center;
     align-items: center;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socar-link:focus,
@@ -474,6 +481,7 @@ ul {
     border-radius: 4px;
     align-items: center;
     justify-content: center;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover,
@@ -554,6 +562,7 @@ ul {
     border-radius: 22px;
     justify-content: center;
     align-items: center;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-socar-blok {
@@ -677,6 +686,7 @@ ul {
     color: var(--header-text-color);
     background-color: var(--sect-team-bg-color);
     border-radius: 4px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list .active-button {
@@ -741,6 +751,10 @@ ul {
     letter-spacing: 0.06em;
     color: var(--header-text-color);
     text-align: left;
+}
+
+.item-portf {
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-title:hover {
