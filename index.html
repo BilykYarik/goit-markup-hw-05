@@ -111,9 +111,24 @@
             <div class="container">
                 <h2 class="task-title title">Чем мы занимаемся</h2>
                 <ul class="list">
-                    <li class="task-list"><img src="./images/img.jpg" class="task-img" alt="набирает текст на пк" width="370" height="294"></li>
-                    <li class="task-list"><img src="./images/img2 (1).jpg" class="task-img" alt="набирает текст на телефоне" width="370" height="294"></li>
-                    <li class="task-list"><img src="./images/img3.jpg" class="task-img" alt="разбирает на теелфоне" width="370" height="294"></li>
+                    <li class="task-list">
+                        <div class="task-kok">
+                        <img src="./images/img.jpg" class="task-img" alt="набирает текст на пк" width="370" height="294">
+                        <p class="task-card">Десктопные приложения</p>
+                        </div>
+                    </li>
+                    <li class="task-list">
+                        <div class="task-kok">
+                        <img src="./images/img2 (1).jpg" class="task-img" alt="набирает текст на телефоне" width="370" height="294">
+                        <p class="task-card">Мобильные приложения</p>
+                        </div>
+                    </li>
+                    <li class="task-list">
+                        <div class="task-kok">
+                        <img src="./images/img3.jpg" class="task-img" alt="разбирает на теелфоне" width="370" height="294">
+                        <p class="task-card">Дизайнерские решения</p>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -386,6 +401,16 @@
             </div>
         </div>
     </footer>
+    <div data-modal class="backdrop is-hidden">
+        <div class="modal">
+            <button data-modal-close class="close-btn" type="button">
+                <svg class="modal-svg" width="11" height="11">
+                    <use href="./images/sprite.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="/js/modal.js"></script>
 </body>
 
 </html>
